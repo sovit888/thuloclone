@@ -1,0 +1,32 @@
+.topbar {
+  .topbar-up {
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h4 {
+      color: purple;
+      margin-left: 10px;
+      flex: 0.9;
+    }
+    .icons {
+      flex: 0.1;
+      display: flex;
+      justify-content: space-between;
+      .MuiSvgIcon-root {
+        font-size: 20px;
+      }
+    }
+  }
+  .topbar-down {
+    display: flex;
+    height: 25px;
+    background-color: #320f67;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    p {
+      font-weight: bold;
+    }
+  }
+}

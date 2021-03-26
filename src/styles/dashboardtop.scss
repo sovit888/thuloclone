@@ -1,0 +1,39 @@
+.dashboard-top {
+  border: 2px solid grey;
+  width: 70%;
+  margin: 10px auto;
+  .dashboard-up {
+    height: 40px;
+    width: 75%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    .date {
+      display: flex;
+      align-items: center;
+      label {
+        font-weight: bold;
+        margin: 0 10px;
+      }
+    }
+    .btn {
+      margin-left: 20px;
+      font-size: 13px;
+      font-weight: bold;
+      padding: 0px 10px;
+      height: 25px;
+    }
+  }
+  .dashboard-down {
+    width: 90%;
+    margin: 0px auto;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    p {
+      font-weight: bold;
+      color: blue;
+      cursor: pointer;
+    }
+  }
+}

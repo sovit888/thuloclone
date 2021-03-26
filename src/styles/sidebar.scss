@@ -1,0 +1,47 @@
+.sidebar {
+  position: fixed;
+  width: 70%;
+  max-width: 240px;
+  height: 100vh;
+  background-color: #320f67;
+  .side-head {
+    height: 55px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .menu-icon {
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: 30px;
+      color: white;
+      cursor: pointer;
+    }
+  }
+  .navbar {
+    padding: 20px 0;
+    .nav-list {
+      a {
+        color: white;
+        outline: none;
+        padding: 5px;
+        display: flex;
+        text-decoration: none;
+        cursor: pointer;
+        align-items: center;
+        font-family: sans-serif;
+        .MuiSvgIcon-root {
+          margin-right: 10px;
+        }
+        &:hover {
+          border-left: 3px solid white;
+        }
+      }
+    }
+  }
+}
+.body {
+  margin-left: 240px;
+}
